@@ -42,9 +42,9 @@ body { background-color: black; opacity: 1; z-index: -999; }
 
 .title1 { left: 37%; }
 
-h1 { color: white; font-size: 80px; font-family: helvetica; text-align: center; position: absolute; z-index: 999; }
+h1 { color: white; font-size: 80px; font-family: 'Chelsea Market', cursive; text-align: center; position: absolute; z-index: 999; }
 
-p { font-size: 40px; font-weight: bold; color: white; font-family: Helvetica; line-height: 40px; padding: 20px; width: 70%; left: 4%; bottom: 30%; border-radius: 25px; transform: translateZ(100px) scale(0.6); position: absolute; z-index: 999; }
+p { font-size: 40px; font-weight: bold; color: white; font-family: 'Chelsea Market', cursive; line-height: 40px; padding: 20px; width: 70%; left: 4%; bottom: 30%; border-radius: 25px; transform: translateZ(100px) scale(0.6); position: absolute; z-index: 999; }
 
 .title1 { left: 37%; }
 
