@@ -36,6 +36,20 @@ html { height: 100%; overflow: hidden; }
 
 .group:before { content: " "; position: absolute; top: 0; bottom: 0; left: 0; right: 0; background: 50% 50% / cover; }
 
+.title { text-align: center; position: absolute; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
+
+.title1 { left: 37%; }
+
+h1 { color: white; font-size: 80px; font-family: helvetica; text-align: center; position: absolute; z-index: 999; }
+
+p { font-size: 40px; font-weight: bold; color: white; font-family: Helvetica; line-height: 40px; padding: 20px; width: 70%; left: 4%; bottom: 30%; border-radius: 25px; transform: translateZ(100px) scale(0.6); position: absolute; z-index: 999; }
+
+.title1 { left: 37%; }
+
+figure { width: 20%; left: 47%; bottom: 40%; transform: translateZ(200px) scale(0.6); position: absolute; z-index: 999; }
+
+img { width: 100%; }
+
 .base { -webkit-transform: translateZ(0); transform: translateZ(0) scale(1); z-index: 5; }
 
 .base2 { -webkit-transform: translateZ(-50px) scale(1.2); transform: translateZ(-50px) scale(1.2); z-index: 6; }
@@ -51,9 +65,16 @@ html { height: 100%; overflow: hidden; }
 /* slide under groups 1 and 3 */
 #group2 { z-index: 6; }
 
-#group2 .base { background: url("http://lorempixel.com/output/abstract-q-g-640-480-5.jpg") 50% 50% no-repeat; background-size: cover; }
+#group2 .base { background: url("../img/olaf2-2.jpg") 50% 50% no-repeat; background-size: cover; }
 
-#group2 .base2 { background: url("../img/deer-1.jpeg") 50% 50% no-repeat; background-size: cover; opacity: .5; }
+#group2 .base2 { background: url("../img/olaf2-1.png") 80% 80% no-repeat; background-size: cover; opacity: 1; }
+
+/* slide under groups 1 and 3 */
+#group3 { z-index: 7; }
+
+#group3 .base { background: url("../img/olaf3-2.jpg") 50% 50% no-repeat; background-size: cover; }
+
+#group3 .base2 { background: url("../img/olaf3-1.png") 80% 80% no-repeat; background-size: cover; opacity: 1; }
 
 /* ========================================================================== Helper classes ========================================================================== */
 /* Hide visually and from screen readers */
