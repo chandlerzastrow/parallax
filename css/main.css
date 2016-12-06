@@ -67,14 +67,14 @@ img { width: 100%; }
 
 #group2 .base { background: url("../img/olaf2-2.jpg") 50% 50% no-repeat; background-size: cover; }
 
-#group2 .base2 { background: url("../img/olaf2-1.png") 80% 80% no-repeat; background-size: cover; opacity: 1; }
+#group2 .base2 { background: url("../img/olaf2-1.png") 90% 90% no-repeat; background-size: cover; opacity: 1; }
 
 /* slide under groups 1 and 3 */
 #group3 { z-index: 7; }
 
 #group3 .base { background: url("../img/olaf3-2.jpg") 50% 50% no-repeat; background-size: cover; }
 
-#group3 .base2 { background: url("../img/olaf3-1.png") 80% 80% no-repeat; background-size: cover; opacity: 1; }
+#group3 .base2 { background: url("../img/olaf3-1.png") 90% 90% no-repeat; background-size: cover; opacity: 1; }
 
 /* ========================================================================== Helper classes ========================================================================== */
 /* Hide visually and from screen readers */
