@@ -76,7 +76,7 @@ img { width: 100%; }
 
 #group3 .base2 { background: url("../img/olaf3-1.png") 70% 70% no-repeat; background-size: cover; opacity: 1; }
 
-#group4 { z-index: 4; }
+#group4 { z-index: 9; }
 
 #group4 .base { background: url("../img/olaf4-2.jpg") 50% 50% no-repeat; background-size: cover; }
 
