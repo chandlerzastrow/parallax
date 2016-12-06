@@ -36,7 +36,7 @@ body{
 .group {
   position: relative;
   padding: 25vh 10%;
-  min-height: 100vh;
+  min-height: 150vh;
   width: 100vw;
   transform-style: inherit;
   background: 50% 50% / cover;
@@ -176,7 +176,7 @@ img {
 }
 
 #group4 .base2 {
-  background: url('../img/olaf4-1.png') 70% 70% no-repeat;
+  background: url('../img/olaf4-1.png') 40% 40% no-repeat;
   background-size: cover;
   opacity: 1;
 }
